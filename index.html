@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/ico/logo.ico">
+    <link rel="icon" href="/assets/ico/logo.ico">
+    <!-- LINK FUENTE ANTON -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- LINK FUENTE RUBIK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <!-- LINK BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <!-- LINK DE ICONOS FONTAWESOME -->
     <script src="https://kit.fontawesome.com/00af6a7c25.js" crossorigin="anonymous"></script>
-    <!-- LINK BOOTSTRAP -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
-    ">
     <!-- LINK STYLESHEET CSS -->
     <link rel="stylesheet" href="CSS/style.css">
     <title>Forwarders Tech</title>
@@ -16,18 +25,18 @@
 <body>
     <!-- LOGO Y NOMBRE DE LA COMPAÑIA -->
     <header>
-        <div>
-            <a href="index.html"><img src="/assets/img/logo.webp" alt="ForawrdersLogo"></a>
-            <h1>FORWARDERS TECH</h1>
-        </div>
+        <a href=""><div class="logo">
+            <img src="/assets/img/logo.webp" alt="ForawrdersLogo">
+            <h1 class="nombre-empresa">FORWARDERS TECH</h1>
+        </div></a>
         <!-- MENU DE NAVEGACION -->
         <nav>
-            <ul>
+            <ul class="menu-horizontal">
                 <li><a href="index.html">INICIO</a></li>
-                <li><a href="CATEGORIA"></a>
-                    <ul>
+                 <li><a href="#">CATEGORIAS</a>
+                    <ul class="menu-vertical">
                         <li><a href="monitores.html">MONITORES</a></li>
-                        <li><a href="perifericos.html"></a>PERIFERICOS</li>
+                        <li><a href="perifericos.html">PERIFERICOS</a></li>
                         <li><a href="graficas.html">GRAFICAS</a></li>
                         <li><a href="fuentes.html">FUENTES</a></li>
                     </ul>
@@ -36,15 +45,117 @@
                 <li><a href="contacto.html">CONTACTANOS</a></li>
             </ul>
         </nav>
-        <div>
-            <input type="search" placeholder="BUSCAR">
-            <i class="fa-solid fa-magnifying-glass icons"></i>
-            <i class="fa-solid fa-bag-shopping icons"></i>
-            <i class="fa-regular fa-user icons"></i>
+        <div class="icons">
+            <div class="containersearch">
+                <input type="search" id="search" placeholder="BUSCAR">
+            </div>
+                
+                <i class="fa-solid fa-magnifying-glass icons"></i>
+                <i class="fa-solid fa-bag-shopping icons"></i>
+                <i class="fa-regular fa-user icons"></i>
+            
         </div>
     </header>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/pexels-roberto-nickson-7238759.webp" class="d-block w-100" alt="SetupGamer">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/pexels-photo-7915215.webp" class="d-block w-100" alt="SetupGamer">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/pexels-bich-tran-1714341.webp" class="d-block w-100" alt="SetupGamer">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- INFORMACION -->
+        <div class="caja1">
+            <div class="column">
+                <p class="losMejores">LOS MEJORES</p>
+                <p class="tituloProducto">MONITORES</p>
+            </div>
+            <div class="caja11 column">
+                <img src="/assets/img/Monitores1.webp" alt="Monitores">
+            </div>
+            <div class="column centrado">
+                <p>Juega con la mayor calidad y la mayor velocidad con monitores diseñados exclusivcamente para gaming,si quieres ser el mejor compra lo mejor.</p>
+            </div>
+           
+        </div>
+        <div class="gridLayout">
+            <a href="perifericos.html"><div class="caja2">
+                <div class="caja22">
+                    <div>
+                        <p class="losMejores1">LOS MEJORES</p>
+                        <h2 class="tituloProducto1">PERIFERICOS</h2>
+                    </div>
+                    <div class="caja222">
+                        <img src="/assets/img/perifericos.webp" class="img-fluid" alt="Perifericos">
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="caja3">
+                <div class="caja22">
+                    <a href="graficas.html"><div>
+                        <p class="losMejores1">LOE MEJORES</p>
+                        <p class="tituloProducto1">GRAFICAS</p>
+                    </div></a>
+                    <div class="caja222 tamaño img-fluid">
+                        <img src="/assets/img/grafica.webp" class="img-fluid" alt="Tarjetas Graficas">
+                    </div>
+                </div>
+            </div>
+            <div class="caja4">
+                <div class="caja22">
+                    <a href="fuentes.html"><div>
+                        <p class="losMejores1">ENERGIA Y POTENCIA</p>
+                        <P class="tituloProducto1">FUENTES</P>
+                    </div></a>
+                    <div class="caja222">
+                        <img src="/assets/img/fuentes.webp" class="img-fluid" alt="Fuentes de poder">
+                    </div>
+                </div>
+            </div>
+        </div>
+</main>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="container d-flex">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href=""><img src="/assets/img/logo.webp"  alt="ForawrdersLogo"></a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Sebastian Alvarez</span>
+        </div>
+        <div class="container">
+            <ul class="nav row-cols-md-5 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                <li class="nav-item"><a href="listacomponentes.html" class="nav-link px-2 text-muted">Componentes</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="redsociales">
+            <a href="https://www.twitter.com/" target="_blank" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </div>
+  </footer>
  
 <!-- LINK JAVA BOOTSTRAP -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
