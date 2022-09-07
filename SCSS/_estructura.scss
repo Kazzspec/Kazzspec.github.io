@@ -253,15 +253,72 @@ footer{
 
 .redsociales a.facebook {
   color: $white;
-  background-color: #3c70a4;
+  background-color: map-get($map: $boton, $key:'facebook' );
 }
 
 .redsociales a.twitter {
   color: $white;
-  background-color: #5bd1d7;
+  background-color: map-get($map: $boton, $key:'twitter' );
 }
 
 .redsociales a.instagram {
   color: $white;
-  background-color: #ff00b7;
+  background-color: map-get($map: $boton, $key: 'instagram' );
 }
+
+
+/* CONTACTANOS */
+@mixin tamañobanner ($ancho,$alto) {
+  width:$ancho;
+  height:$alto;
+}
+
+.aboutUs{
+  margin-top:60px;
+  @include tamañobanner(100%,240px );
+  margin-bottom: 110px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  background: linear-gradient(90deg, rgba(191,187,187,1) 0%, rgba(191,187,187,1) 18%, rgba(191,187,187,1) 79%, rgba(255,255,255,1) 96%);
+}
+
+.gridLayout2{
+  display: grid;
+  height: 450px;
+  width: 100%;
+  grid-template-columns: 50% 35%;
+  grid-template-rows: 500px;
+  grid-template-areas: 
+  "mapa info";
+}
+
+.mapa{
+  grid-area: mapa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.info{
+  grid-area: info;
+}
+
+.largo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 45px;
+  border-color: rgb(158, 2, 2);
+  border-radius: 4px;
+}
+
+#pregunta{
+  border-color: rgb(158, 2, 2);
+  border-radius: 4px
+}
+
+.interesado{
+  @extend #pregunta;
+}
+

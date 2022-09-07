@@ -257,6 +257,52 @@ footer img {
   background-color: #ff00b7;
 }
 
+/* CONTACTANOS */
+.aboutUs {
+  margin-top: 60px;
+  width: 100%;
+  height: 240px;
+  margin-bottom: 110px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  background: linear-gradient(90deg, rgb(191, 187, 187) 0%, rgb(191, 187, 187) 18%, rgb(191, 187, 187) 79%, rgb(255, 255, 255) 96%);
+}
+
+.gridLayout2 {
+  display: grid;
+  height: 450px;
+  width: 100%;
+  grid-template-columns: 50% 35%;
+  grid-template-rows: 500px;
+  grid-template-areas: "mapa info";
+}
+
+.mapa {
+  grid-area: mapa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.info {
+  grid-area: info;
+}
+
+.largo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 45px;
+  border-color: rgb(158, 2, 2);
+  border-radius: 4px;
+}
+
+#pregunta, .interesado {
+  border-color: rgb(158, 2, 2);
+  border-radius: 4px;
+}
+
 /* COLORES DE LETRA*/
 a {
   text-decoration: none;

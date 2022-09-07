@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/ico/logo.ico">
+    <link rel="icon" href="/assets/ico/logo.ico">
+    <!-- METAETIQUETA DESCRIPTION -->
+    <meta name="description" content="Tienda de componentes para equipos gamers, de oficina o para uso profesional, garantia y asesoria tecnica.">
+    <meta name="keywords" content="gaming, gamer, componentes, computadores, desktop, tech forwarders,">
+    <!-- LINK FUENTE ANTON -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- LINK FUENTE RUBIK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <!-- LINK BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- LINK DE ICONOS FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/00af6a7c25.js" crossorigin="anonymous"></script>
+    <!-- LINK STYLESHEET CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Forwarders Tech</title>
+</head>
+<body>
+    <!-- LOGO Y NOMBRE DE LA COMPAÑIA -->
+    <header>
+        <a href=""><div class="logo">
+            <img src="/assets/img/logo.webp" alt="ForawrdersLogo">
+            <h1 class="nombre-empresa">FORWARDERS TECH</h1>
+        </div></a>
+        <!-- MENU DE NAVEGACION -->
+        <nav>
+            <ul class="menu-horizontal">
+                <li><a href="index.html">INICIO</a></li>
+                 <li><a href="#">CATEGORIAS</a>
+                    <ul class="menu-vertical">
+                        <li><a href="monitores.html">MONITORES</a></li>
+                        <li><a href="perifericos.html">PERIFERICOS</a></li>
+                        <li><a href="graficas.html">GRAFICAS</a></li>
+                        <li><a href="fuentes.html">FUENTES</a></li>
+                    </ul>
+                </li>
+                <li><a href="listacomponentes.html">LISTA COMPONENTES</a></li>
+                <li><a href="contacto.html">CONTACTANOS</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div class="containersearch">
+                <input type="search" id="search" placeholder="BUSCAR">
+            </div>
+                
+                <i class="fa-solid fa-magnifying-glass icons"></i>
+                <i class="fa-solid fa-bag-shopping icons"></i>
+                <i class="fa-regular fa-user icons"></i>
+            
+        </div>
+    </header>
+    <main class="mainMargin">
+        <div class="aboutUs animacion1">
+            <p>Sobre nosotros</p>
+            <h2>CONTACTENOS</h2>
+        </div>
+        <div class="gridLayout2">
+            <div class="mapa">
+                <iframe class="escalar" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162732.0835750147!2d-74.19679127810609!3d40.72277966084569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1658613730344!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="info formulario">
+                <div>
+                    <h2 class="subtitle">SERVICIO AL CLIENTE</h2>
+                    <p style="color:black;">Para una mejor experiencia escribe tus dudas aqui,nos pondremos en contacto lo mas pronto posible.</p>
+                </div>
+                <form "" class="mainform">
+                    <input class="form largo" type="text" minlength="4" maxlength="15" name="nombre" placeholder="NOMBRE"><br>
+                    <input class="form largo" type="text" minlength="4" maxlength="15" name="apellido" placeholder="APELLIDO"><br>
+                    <input  class="form largo" type="tel" min="10" max="12" name="contacto" placeholder="NUMERO CELULAR"><br>
+                    <input class="form largo" type="text" min="10" maxlength="20" name="correo" placeholder="CORREO"><br>
+                    <span>Metodo de contacto</span><br>
+                    <span>Correo</span>
+                    <input type="radio" name="contacto" value="Correo">
+                    <span>Celular</span>
+                    <input type="radio" name="contacto" value="Celular"><br>
+                    <span>Interesado en</span>
+                        <select name="interesado" id="interesado">
+                            <option value="" ></option>
+                            <option value="tarjeta grafica">Componentes</option>
+                            <option value="tarjeta grafica">Asesoria</option>
+                            <option value="tarjeta grafica">Se nuestro socio</option>
+                        </select><br>
+                    <textarea name="" id="pregunta" cols="30" rows="10" placeholder="Escriba aqui su pregunta" ></textarea><br>
+                    <input type="checkbox">
+                    <span>Acepto politicas y tratamiento de datos</span><br>
+                    <input type="submit" class="btn btn-danger">
+                    <input type="reset" class="btn btn-danger">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
