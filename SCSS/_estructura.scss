@@ -273,7 +273,7 @@ footer{
   height:$alto;
 }
 
-.aboutUs{
+.degrade{
   margin-top:60px;
   @include tamañobanner(100%,240px );
   margin-bottom: 110px;
@@ -285,19 +285,17 @@ footer{
 
 .gridLayout2{
   display: grid;
-  height: 450px;
   width: 100%;
   grid-template-columns: 50% 35%;
-  grid-template-rows: 500px;
+  grid-template-rows: auto;
   grid-template-areas: 
   "mapa info";
+
 }
 
 .mapa{
   grid-area: mapa;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
+ margin: auto;
 }
 
 .info{
@@ -320,5 +318,15 @@ footer{
 
 .interesado{
   @extend #pregunta;
+}
+
+/* PAGINA DE LISTA DE COMPONENTES*/
+
+.lista-partes{
+  height: 700px;
+  width: 1678px;
+}
+.escalar:hover{
+  transform: scale(1.3,1.6);
 }
 
