@@ -1,0 +1,64 @@
+{
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.fontFamily": "'JetBrains Mono',monospace",,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": false,
+    "editor.renderWhitespace": "all",
+    "editor.detectIndentation": false,
+    "editor.renderIndentGuides": false,
+    "editor.folding": false,
+    "editor.glyphMargin": false,
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "blink",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.matchBrackets": "never",
+    "editor.colorDecorators": false,
+    "editor.suggestSelection": "first",
+    "editor.minimap.enabled": false,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Moonlight II",
+    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.activityBar.visible": false,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#FFD166",
+        "statusBar.foreground": "#282B39"
+    },
+    "explorer.sortOrder": "type",
+    "explorer.autoReveal": false,
+    "explorer.openEditors.visible": 0,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
+    "terminal.external.osxExec": "iTerm.app",
+    "breadcrumbs.enabled": false,
+    "javascript.validate.enable": false,
+    "markdown.preview.fontFamily": "Victor Mono",
+    "[markdown]": {
+      "files.trimTrailingWhitespace": false
+    },
+    "codesnap.boxShadow": "0", // Remueve la sombra de la imagen
+  "codesnap.containerPadding": "0", // Remueve el padding externo de la imagen
+  "codesnap.showWindowControls": false, // Oculta los controles de las ventanas
+  "codesnap.showWindowTitle": false, // Oculta el título de la ventana
+  "codesnap.showLineNumbers": false, // Oculta el número de líneas
+  "codesnap.transparentBackground": true, // Define que el fondo sea transparente
+  "helium-icon-theme.folders.color": "#42a5f5",
+  "typescript.suggest.paths": false, // Desactiva el autocompletado predeterminado en TypeScript
+  "javascript.suggest.paths": false, // Desactiva el autocompletado predeterminado en JavaScript
+  "prettier.arrowParens": "always", // Para utilizar ( ) en funciones flecha con un solo parámetro
+  "prettier.bracketSpacing": true, // Deja espacios entre los corchetes { ... }
+  "prettier.jsxBracketSameLine": true, // Para colocar el símbolo > al final de la última línea en JSX
+  "prettier.jsxSingleQuote": false, // Define comillas dobles para JSX
+  "prettier.printWidth": 85, // Especifica la longitud máxima de las líneas del código
+  "prettier.semi": true, // Define el punto y coma al final de las declaraciones
+  "prettier.singleQuote": false,  // Define comillas dobles para el código
+  "prettier.tabWidth": 4, // Específica el número de espacios para la indentación
+  "prettier.useTabs": false, // Desactiva la indentación con tabulaciones
+}
