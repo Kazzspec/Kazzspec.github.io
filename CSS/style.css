@@ -462,7 +462,9 @@ footer img {
   .navbar {
     display: block;
     position: relative;
-    left: -45px;
+    top: 45px;
+    left: 75px;
+    width: 5px;
   }
   .tituloProducto {
     text-align: center;
@@ -478,23 +480,29 @@ footer img {
   }
   header .nombre-empresa {
     display: flex;
-    padding-right: 400px;
-    width: 100px;
     font-weight: bold;
     align-items: center;
+  }
+  header .nombre-empresa a:hover {
+    color: black;
   }
   .tituloProducto {
     font-size: 75px;
   }
   .caja11 img {
-    width: 400px;
+    width: 399px;
   }
   header img {
-    display: none;
+    display: inline;
   }
   header .nombre-empresa {
-    width: 10px;
     display: inline;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+  }
+  .tituloProducto {
+    font-size: 60px;
   }
 }
 /* COLORES DE LETRA*/

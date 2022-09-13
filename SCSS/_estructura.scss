@@ -516,7 +516,9 @@ footer{
       .navbar{
         display: block;
         position: relative;
-        left: -180px;
+        top: 45px;
+        left: 75px;
+        width: 5px;
       }
 
       .tituloProducto{
@@ -533,10 +535,11 @@ footer{
           }
           .nombre-empresa{
             display: flex;
-            padding-right: 400px;
-            width: 100px;
             font-weight: bold;
             align-items: center;
+            a:hover{
+                color: black;
+            }
           }
       }
 
@@ -546,19 +549,26 @@ footer{
 
       .caja11{
         img{
-            width: 400px;
+            width: 399px;
         }
       }
 
     header{
         img{
-            display: none;
-        }
-        .nombre-empresa{
-            width: 10px;
             display: inline;
         }
+        .nombre-empresa{
+            display: inline;
+            width: 100px;
+            padding: 0;
+            margin: 0;
+        }
 
+    }
+
+
+    .tituloProducto{
+        font-size: 60px;
     }
 
 }
