@@ -34,8 +34,45 @@
         <img src="/assets/img/logo.webp" alt="ForawrdersLogo">
         <h1 class="nombre-empresa">FORWARDERS TECH</h1>
     </div></a>
+    <nav class="navbar navbar-white bg-white fixed-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">FORAWRDERS TECH</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="/index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="listacomponentes.html">LISTA COMPONENTES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="contacto.html">CONTECTENOS</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    CATEGORIAS
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="monitores.html">MONITORES</a></li>
+                    <li><a class="dropdown-item" href="perifericos.html">PERIFERICOS</a></li>
+                    <li><a class="dropdown-item" href="graficas.html">GRAFICAS</a></li>
+                    <li><a class="dropdown-item" href="fuentes.html">FUENTES</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     <!-- MENU DE NAVEGACION -->
-    <nav>
+    <nav class="desktop-menu">
         <ul class="menu-horizontal">
             <li><a href="index.html">INICIO</a></li>
              <li><a href="#">CATEGORIAS</a>
@@ -100,6 +137,30 @@
               <a href="#" class="btn btn-danger">Comprar</a>
             </div>
           </div>
+          <div class="card elemento4" style="width: 18rem;">
+            <img src="/assets/img/CATEGORIAS/fuentes/1000w.png" class="card-img-top" alt="Fuente1000W">
+            <div class="color-card">
+              <h5 class="card-title">Fuente 1000W</h5>
+              <p class="card-text ">Fuente de poder 1000W XPG</p>
+              <a href="#" class="btn btn-danger">Comprar</a>
+            </div>
+          </div>
+          <div class="card elemento5" style="width: 18rem;">
+            <img src="/assets/img/CATEGORIAS//fuentes/450w.png" class="card-img-top" alt="Fuente450w">
+            <div class="color-card">
+              <h5 class="card-title">Fuente de 450W</h5>
+              <p class="card-text">Fuente de poder 450W XPG</p>
+              <a href="#" class="btn btn-danger">Comprar</a>
+            </div>
+          </div>
+          <div class="card elemento6" style="width: 18rem;">
+            <img src="/assets/img/CATEGORIAS//fuentes/550w.png" class="card-img-top" alt="Fuente550w">
+            <div class="color-card">
+              <h5 class="card-title">Fuente de 550W</h5>
+              <p class="card-text">Fuente de poder 550W XPG</p>
+              <a href="#" class="btn btn-danger">Comprar</a>
+            </div>
+          </div>
     </div>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="container d-flex">
@@ -123,7 +184,7 @@
           </div>
       </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </main>
 </body>
 </html>

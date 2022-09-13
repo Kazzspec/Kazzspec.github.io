@@ -397,6 +397,10 @@ footer img {
   font-weight: bolder;
 }
 
+.navbar {
+  display: none;
+}
+
 /* FIRTS MOBILE */
 @media screen and (min-width: 320px) and (max-width: 559px) {
   .gridLayout {
@@ -406,6 +410,9 @@ footer img {
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "perifericos" "graficas" "fuentes";
+  }
+  .caja11 img {
+    width: 500px;
   }
   .losMejores {
     padding-top: 80px;
@@ -448,6 +455,46 @@ footer img {
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "elemento1" "elemento2" "elemento3" "elemento4" "elemento5" "elemento6";
+  }
+  .desktop-menu, .icons {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    position: relative;
+    left: -45px;
+  }
+  .tituloProducto {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+  }
+  header {
+    display: flex;
+  }
+  header .logo {
+    display: flex;
+  }
+  header .nombre-empresa {
+    display: flex;
+    padding-right: 400px;
+    width: 100px;
+    font-weight: bold;
+    align-items: center;
+  }
+  .tituloProducto {
+    font-size: 75px;
+  }
+  .caja11 img {
+    width: 400px;
+  }
+  header img {
+    display: none;
+  }
+  header .nombre-empresa {
+    width: 10px;
+    display: inline;
   }
 }
 /* COLORES DE LETRA*/
