@@ -21,6 +21,7 @@ header{
     }
     .nombre-empresa{
       display: flex;
+      color: $black;
       padding-right: 400px;
       width: 130px;
       font-weight: bold;
@@ -294,8 +295,10 @@ footer{
 }
 
 .mapa{
-  grid-area: mapa;
- margin: auto;
+    grid-area: mapa;
+    width:90%;
+    height:70%;
+    margin: auto;
 }
 
 .info{
@@ -429,7 +432,7 @@ footer{
 
 /* FIRTS MOBILE */
 
-@media screen and (min-width:320px) and (max-width:559px){
+@media screen and (min-width:320px) and (max-width:767px){
 
     .gridLayout{
         height: 100%;
@@ -465,29 +468,23 @@ footer{
         display: none;
     }
 
-    .espacio-index{
-        margin-bottom: 800px;
-    }
     .gridLayout2{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 1fr 0.5fr ;
+        grid-template-rows: 1fr 2.5fr;
         grid-template-areas:
         "mapa"
         "info";
       }
 
     .mapa{
-        margin-top: -80px;
+        width:100%;
+        height:450px;
     }
 
 
     .escalar:hover{
         transform: none
-      }
-
-      .info{
-        margin-bottom: -300000000000px;
       }
 
       .lista-partes{
@@ -540,6 +537,7 @@ footer{
             a:hover{
                 color: black;
             }
+
           }
       }
 
@@ -567,8 +565,55 @@ footer{
     }
 
 
+
     .tituloProducto{
         font-size: 60px;
     }
 
+}
+
+/* MEDIA QUERY PORTATIL */
+@media screen and (min-width:922px) and (max-width:1199px){
+    header{
+        display: flex;
+          .logo{
+            display: flex;
+            width:200px;
+          }
+          .nombre-empresa{
+            display: flex;
+            font-size: large;
+            font-weight: bold;
+            align-items: center;
+          }
+      }
+
+      .containersearch input#search{
+        width: 140px;
+        height: 40px;
+        border: none;
+        font-size: 10pt;
+        float: left;
+        color: #63717f;
+        padding-left: 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+      }
+
+      .icons{
+        padding:0px 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      .menu-cat1{
+        height: 100%;
+        width: 170px;
+      }
+
+      .lista-partes{
+        height: 700px;
+        width: 100%;
+      }
 }
